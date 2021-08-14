@@ -5,13 +5,13 @@ echo("------------------------ BEGIN ------------------------");
 // (Diameter of the outer cylinder)
 OuterWheelDiameter  = 55;
 // (Ring gear cut out diameter from the outer wheel)
-RingGearDiameter   	= 50;
-Thickness           = 10; 
+RingGearDiameter   	= 55;
+Thickness           = 14; 
 // (separation between the gear teeth)
 Clearance           = 0.25;
-Planets             = 6;
-PlanetTeethCount    = 8;
-SunToothCountEstimate  = 10;
+Planets             = 7;
+PlanetTeethCount    = 11;
+SunToothCountEstimate  = 19;
 // (The involute gear teeth pressure angle of obliquity)
 PressureAngle       = 45;
 // (The # of teeth each gear tooth will cross helically)
