@@ -1,4 +1,4 @@
-use <../libraries/cylinders.scad>;
+use <cylinders.scad>;
 
 od = 60;
 id = 56;
