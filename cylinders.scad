@@ -40,7 +40,7 @@ module ring(ring_od, ring_id, height, fn=50) {
   translate([0, 0, height/2])
   difference() {
     cylinder(r=ring_od/2, h=height, center=true, $fn=fn);
-    cylinder(r=ring_id/2, h=height*1.01, center=true, $fn=fn);
+    cylinder(r=ring_id/2, h=height+2, center=true, $fn=fn);
   }
 }
 
@@ -48,7 +48,7 @@ module cone_ring(od1, od2, id1, id2, height, fn=50) {
   translate([0, 0, height/2])
 	difference() {
 		cylinder(r1=od1/2,r2=od2/2, h=height, center=true, $fn=fn);
-		cylinder(r1=id1/2,r2=id2/2, h=height+0.01, center=true, $fn=fn);
+		cylinder(r1=id1/2,r2=id2/2, h=height+10.01, center=true, $fn=fn);
 	}
 }
 
